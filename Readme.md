@@ -14,4 +14,4 @@ Comcast places [restrictions](https://groups.google.com/forum/#!msg/comp.sys.ams
 The source files in this repo are for historical reference and will be kept static, so please don’t send Pull Requests suggesting any modifications to the source files, but feel free to fork this repo and experiment.
 
 The source builds with the cross-platform [RASM Z80 Assembler](https://www.cpcwiki.eu/forum/programming/rasm-z80-assembler-in-beta/).
-From the command line: `RASM -pasmo busra.asm -ob 48.ROM`
+From the command line: `RASM -pasmo zxrom.asm -ob 48.ROM`
