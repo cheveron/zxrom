@@ -175,7 +175,7 @@ p_pause:
 	org $1ac9
 p_read:
 	defb var_syn;								// 
-	defw read
+	defw c_read
 
 	org $1acc
 p_data:
@@ -902,7 +902,7 @@ read_3:
 	rst next_char
 
 	org $1ded
-read:
+c_read:
 	call class_01;								// 
 	call syntax_z;								// 
 	jr z, read_2;								// 
